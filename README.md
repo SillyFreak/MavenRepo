@@ -5,13 +5,11 @@ This git repository contains a maven repository for artifacts of my projects. To
 
 You won't usually need to clone this repository. Maven projects referencing some of mine should use some code like this in their POM to have access to the artifacts:
 
-    TODO verify this code snippet is correct
-
 ```
  <repositories>
   <repository>
    <id>SillyFreak-releases</id>
-   <url>https://raw.github.com/SillyFreak/MavenRepo/master/releases/</url>
+   <url>https://raw.github.com/SillyFreak/MavenRepo/master/releases</url>
    <releases>
     <enabled>true</enabled>
    </releases>
@@ -21,7 +19,7 @@ You won't usually need to clone this repository. Maven projects referencing some
   </repository>
   <repository>
    <id>SillyFreak-snapshots</id>
-   <url>https://raw.github.com/SillyFreak/MavenRepo/master/snapshots/</url>
+   <url>https://raw.github.com/SillyFreak/MavenRepo/master/snapshots</url>
    <releases>
     <enabled>false</enabled>
    </releases>
